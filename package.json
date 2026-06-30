@@ -8,7 +8,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test": "vitest run",
-    "start:stdio": "tsx src/stdio.ts"
+    "start:stdio": "tsx src/stdio.ts",
+    "e2e:local": "tsx src/e2e-local.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
